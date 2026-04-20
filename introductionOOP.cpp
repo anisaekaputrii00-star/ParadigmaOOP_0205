@@ -9,7 +9,7 @@ public :
 
     void printData(){
         cout << "NIM : " << nim << endl;
-        cout << "Nama : " << nama << endl;
+        cout << "Nama : " << nama << endl
         cout << "Nilai : " << nilai << endl;
     }
 }; //batas class
@@ -20,5 +20,5 @@ int main(){
     mhs.nama = "Abra";
     mhs.nilai = 90.5;
 
-    mhs.printData()pr
+    mhs.printData();
 }
