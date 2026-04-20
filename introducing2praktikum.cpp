@@ -7,5 +7,12 @@ public:
     int jumlah;
     string kategori;
     string tanggalProduksi;
-    
-}
+
+    void spesifikasi() 
+    {
+        cout << "Nama : " << nama << endl;
+        cout << "Jumlah : " << jumlah << endl;
+        cout << "Kategori : " << kategori << endl;
+        cout << "tanggalProduksi: " << tanggalProduksi << endl;
+    }
+};
